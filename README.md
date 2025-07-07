@@ -67,6 +67,7 @@ nifty50-algo-trading-strategy/
 | `03_strategy_backtesting.ipynb` | Implements MACD + RSI-based trading logic, backtests strategy, and logs performance metrics. |
 | `04_strategy_visualization.ipynb` | Visualises portfolio value, buy/sell signals, and overlays indicators. |
 | `05_project_summary.ipynb` | High-level summary, comparisons of top-performing stocks, and final insights. |
+| `06_ml_signal_classifier.ipynb` | Bonus ML notebook using Random Forest to classify Buy signals based on technical indicators. |
 | `strategies/` | Python script containing reusable strategy logic. |
 | `Strategy_functions.py` | Modular functions for signal generation and backtesting. |
 | `results/` | Strategy backtest results saved for evaluation. |
@@ -87,6 +88,25 @@ df.loc[(df["MACD"] > df["MACD_Signal"]) & (df["RSI"] < 30), "Signal"] = 1
 # Sell Signal: MACD crosses below MACD Signal AND RSI above 70
 df.loc[(df["MACD"] < df["MACD_Signal"]) & (df["RSI"] > 70), "Signal"] = -1
 ```
+## 🔍 Bonus: ML-Based Buy Signal Classifier
+
+- Built a Random Forest model to classify “Buy” signals using engineered indicators
+- Achieved **ROC AUC = 1.00**, handling class imbalance with **SMOTE**
+- Feature set included **MACD Histogram, Volatility (5-day), Momentum (10-day)** etc.
+- Provides automation for signal generation under real-world noise
+
+### Confusion Matrix (ML Classifier)
+
+![Confusion Matrix](confusion_matrix.png)
+
+### ROC Curve
+
+![ROC Curve](ROC_curve.png)
+
+## Feature Importance
+
+![Confusion Matrix](feature_importance.png)
+---
 ## Getting Started
 
 Clone this repo:
