@@ -112,7 +112,7 @@ df.loc[(df["MACD"] < df["MACD_Signal"]) & (df["RSI"] > 70), "Signal"] = -1
 
 Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/nifty50-algo-trading-strategy.git
+   git clone https://github.com/Yugdes/nifty50-algo-trading-strategy.git
    cd nifty50-algo-trading-strategy
    pip install -r requirements.txt
    ```
