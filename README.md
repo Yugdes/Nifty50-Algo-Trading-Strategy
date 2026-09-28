@@ -137,8 +137,7 @@ For a high-level walkthrough of the strategy performance and key insights, refer
 
 **Yug Desai**  
 yug.desai@iitgn.ac.in  
-+91-9909482215  
-Quantitative Finance | Python | Financial Modelling
+Quantitative Finance | Investment Banking | Financial Modelling
 
 ---
 
