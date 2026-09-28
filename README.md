@@ -45,6 +45,7 @@ nifty50-algo-trading-strategy/
 │     ├── 03_strategy_backtesting.ipynb
 │     ├── 04_strategy_visualization.ipynb
 │     └── 05_project_summary.ipynb
+|     └── 06_ml_signal_classifier.ipynb
 ├── strategies/
 │     └── Strategy_functions.py
 ├── results/
