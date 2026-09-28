@@ -1,6 +1,6 @@
 # Nifty50 Algo Trading Strategy
 
-An end-to-end algorithmic trading project built using Python. This project demonstrates technical analysis, strategy design, backtesting, and performance evaluation, designed with a strong focus on analytical and coding skills applicable to quantitative finance roles like Barclays Global Markets & Equity Research.
+An end-to-end algorithmic trading project built using Python. This project demonstrates technical analysis, strategy design, backtesting, and performance evaluation.
 
 ---
 
