@@ -32,11 +32,6 @@ df.loc[(df["MACD"] < df["MACD_Signal"]) & (df["RSI"] > 70), "Signal"] = -1
 - **Features**: scale-free ratios of MACD, RSI, SMA/EMA distance, volatility, momentum and volume, computed per ticker.
 - **Split**: chronological, 80% train / 20% test, with a 10-day gap.
 - **Result**: ROC AUC 0.529, accuracy 0.51 (test share of up-moves: 0.561), i.e. no reliable edge.
-
-![Confusion Matrix](confusion_matrix.png)
-![ROC Curve](ROC_curve.png)
-![Feature Importance](feature_importance.png)
-
 ---
 
 ## Limitations
